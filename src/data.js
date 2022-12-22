@@ -14,6 +14,25 @@ import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
 
 
+export const navigationData =[
+  {
+    name: 'Deliver',
+    href: '#',
+  },
+  {
+    name: 'About',
+    href: '#',
+  },
+  {
+    name: 'Features',
+    href: '#',
+  },
+  {
+    name: 'Signup',
+    href: '#',
+  },
+];
+
 export const heroData = {
   title: ` Order Products Faster Easier`,
   subtitle:
