@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily:{
       primary: 'Open Sans',
-      secondary: 'Lto',
+      secondary: 'Lato',
     },
     container:{
       padding:{
