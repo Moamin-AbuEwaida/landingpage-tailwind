@@ -1,8 +1,8 @@
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       Page Stared
     </div>
   );
