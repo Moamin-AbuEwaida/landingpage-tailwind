@@ -3,22 +3,20 @@ import { testimonialsData } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/autoplay";
 import "../Slider.css";
 import { Pagination } from "swiper";
-import { Autoplay } from "swiper";
 
 const TestimonialSlider = () => {
   return (
     <Swiper
       slidesPreView={"auto"}
       centeredSlides={true}
-      spaceBetween={50}
+      spaceBetween={30}
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination, Autoplay]}
-      className="mySwiper"
+      modules={[Pagination]}
+      className="swiper-wrapper"
     >
       {testimonialsData.map((slide, index) => {
         const { image, name, web, message } = slide;
