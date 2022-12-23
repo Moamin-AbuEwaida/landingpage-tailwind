@@ -118,3 +118,10 @@ export const testimonialsData = [
     delay: '900',
   },
 ];
+
+export const ctaData = {
+  title: 'Contact Us From Here',
+  subtitle: 'Get limited 1 week free try our features!',
+  btnText1: 'Learn more',
+  btnText2: 'Request Demo',
+};

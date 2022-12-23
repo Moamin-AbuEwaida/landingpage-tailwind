@@ -3,7 +3,7 @@ import TestimonialSlider from "./TestimonialSlider";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section className="relative">
       <div className="container-fluid mx-auto">
         <div
           className="bg-accent-primary min-h-[600px]"
