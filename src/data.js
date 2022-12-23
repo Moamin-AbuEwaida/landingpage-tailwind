@@ -1,3 +1,6 @@
+import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+import { BsChatDotsFill } from 'react-icons/bs';
+
 import AboutImg from '../src/assets/img/about.png';
 import Feature1Img from '../src/assets/img/features/feature1.png';
 import Feature2Img from '../src/assets/img/features/feature2.png';
@@ -124,4 +127,70 @@ export const ctaData = {
   subtitle: 'Get limited 1 week free try our features!',
   btnText1: 'Learn more',
   btnText2: 'Request Demo',
+};
+
+export const footerData = {
+  logo: LogoV2,
+  address: 'Product Texas, 234 Bokki Avenue Street BMW 99388',
+  email: 'info@producttexas.project',
+  phone: '1-232-7788 (Main)',
+  list1: [
+    {
+      name: 'Profile',
+      href: '#',
+    },
+    {
+      name: 'Features',
+      href: '#',
+    },
+    {
+      name: 'Careers',
+      href: '#',
+    },
+    {
+      name: 'DW News',
+      href: '#',
+    },
+  ],
+  list2: [
+    {
+      name: 'Support',
+      href: '#',
+    },
+    {
+      name: 'Sign Up',
+      href: '#',
+    },
+    {
+      name: 'Guide',
+      href: '#',
+    },
+    {
+      name: 'Reports',
+      href: '#',
+    },
+    {
+      name: 'Q & A',
+      href: '#',
+    },
+  ],
+  socialList: [
+    {
+      icon: <FaYoutube />,
+      href: '#',
+    },
+    {
+      icon: <FaInstagram />,
+      href: '#',
+    },
+    {
+      icon: <FaGithub />,
+      href: '#',
+    },
+  ],
+};
+
+export const copyrightData = {
+  text: '© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.',
+  icon: <BsChatDotsFill />,
 };

@@ -21,6 +21,7 @@ function App() {
       <Features />
       <Testimonials />
       <CtaSection />
+      <Footer />
     </div>
   );
 }
